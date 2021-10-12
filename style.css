@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #22032e;
+  color: #e0ec00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  background-color: rgba(1, 1, 1, 0.5);
+  width: 80vw;
+  height: 90vh;
+  margin-top: 5vh;
+  border-radius: 25px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2vh;
+}
+
+.links ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2vh;
+}
