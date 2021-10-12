@@ -5,6 +5,7 @@
 }
 body {
   background-color: #22032e;
+  font-family: Lobster, "Open Sans";
   color: #e0ec00;
   display: flex;
   justify-content: center;
@@ -12,14 +13,16 @@ body {
 }
 
 #content {
-  background-color: rgba(1, 1, 1, 0.5);
-  width: 80vw;
+  width: 70vw;
   height: 90vh;
   margin-top: 5vh;
   border-radius: 25px;
 }
 
 header {
+  border-radius: 25px;
+  background-color: rgba(1, 1, 1, 0.2);
+  height: 10%;
   display: flex;
   justify-content: space-between;
   padding: 2vh;
@@ -29,4 +32,17 @@ header {
   list-style-type: none;
   display: flex;
   gap: 2vh;
+}
+
+#main-content {
+  border-radius: 25px;
+  height: 90%;
+  background-color: rgba(1, 1, 1, 0.5);
+  font-family: "Open Sans";
+  padding: 5vh;
+}
+
+#hyljekuva {
+  width: 20%;
+  float: right;
 }
