@@ -5,7 +5,7 @@
 }
 body {
   background-image: url(/src/img/pizzabg2.jpg);
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
   background-size: 100%;
   font-family: Lobster, "Open Sans";
   color: #e0ec00;
@@ -40,6 +40,7 @@ header {
 }
 
 #main-content {
+  position: relative;
   border-radius: 0px 0px 25px 25px;
   height: 90%;
   background-color: rgba(1, 1, 1, 0.7);
@@ -51,8 +52,13 @@ header {
   width: 50%;
 }
 
+#imgCont {
+  max-height: 50%;
+}
+
 #hyljekuva {
-  width: 20%;
+  width: 100%;
+  max-width: 15vw;
   float: right;
 }
 
@@ -60,6 +66,6 @@ footer {
   display: flex;
   width: 70vw;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   bottom: 7vh;
 }
