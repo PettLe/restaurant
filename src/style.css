@@ -5,8 +5,8 @@
 }
 body {
   background-image: url(/src/img/pizzabg2.jpg);
-  /*background-repeat: no-repeat;*/
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: Lobster, "Open Sans";
   color: #e0ec00;
   display: flex;
