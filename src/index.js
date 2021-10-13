@@ -1,3 +1,5 @@
 import './style.css';
+import home from "./firstPage.js";
 
-console.log("Pleeeease, toimi oo kiltti");
+
+home();

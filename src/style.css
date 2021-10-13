@@ -22,7 +22,7 @@ body {
   margin-top: 5vh;
 }
 
-header {
+.header {
   border-radius: 25px 25px 0px 0px;
   background-color: rgba(1, 1, 1, 0.4);
   height: 10%;
@@ -31,12 +31,24 @@ header {
   padding: 2vh;
 }
 
-.links ul {
-  margin: auto;
+.links {
+  margin-left: auto;
+  padding: 1vh;
   font-size: 1.5em;
   list-style-type: none;
   display: flex;
   gap: 5vh;
+}
+
+/*.li {
+  padding: 0 vh;
+}*/
+
+.li:hover {
+  /*background-color: rgba(255, 255, 255, 0.9);*/
+  color: rgb(230, 104, 20);
+  margin: auto;
+  cursor: pointer;
 }
 
 #main-content {
@@ -50,6 +62,11 @@ header {
 
 #homeDescription {
   width: 50%;
+  gap: 5vh;
+}
+
+#homeDescription p {
+  margin: 2vh 0vh 2vh 0vh;
 }
 
 #imgCont {
@@ -58,6 +75,7 @@ header {
 
 #hyljekuva {
   width: 100%;
+  border-radius: 50px;
   max-width: 15vw;
   float: right;
 }
