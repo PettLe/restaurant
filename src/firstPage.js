@@ -1,4 +1,5 @@
 import homeContent from "./homeContent.js";
+import menuContent from "./menu.js";
 
 function home() {
 
@@ -33,6 +34,16 @@ links.appendChild(link1);
 links.appendChild(link2);
 links.appendChild(link3);
 
+
+link1.addEventListener("click", function() {
+    mainContent.innerHTML = "";
+    homeContent();
+})
+
+link2.addEventListener("click", function() {
+    mainContent.innerHTML = "";
+    menuContent();
+})
 /* MAIN CONTENT AREA */
 /* Luo linkkeihin eventListener joka tuo jokaisen sivun sisällön tähän*/
 homeContent();

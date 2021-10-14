@@ -60,7 +60,8 @@ body {
   padding: 5vh;
 }
 
-#homeDescription {
+#homeDescription,
+#menuDescription {
   width: 50%;
   gap: 5vh;
 }
