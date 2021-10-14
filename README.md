@@ -7,3 +7,7 @@ that doing the HTML this way is so much more complicated that it opens doors for
 
 Was afraid how to link the sub pages. I didn't want to take the easy route of just loading UI and layout and everything every time the
 links are being clicked. Turns out it was easy. Very intuitive, actually. Worked just the way I had hoped for. Simple eventListeners.
+
+Had trouble rendering menu section. It would have been easy if I just manually did all the divs and contents, but I wanted to take the
+extra step (and practice) generating them using a for loop. Ended up using three separate arrays there. Object would have been a lot cleaner
+way to solve this for sure, but I guess it's still something. Maybe I'll try later.

@@ -4,9 +4,12 @@ import menuContent from "./menu.js";
 function home() {
 
 const content = document.getElementById("content"); 
-const mainContent = document.getElementById("main-content");
+const mainContent = document.createElement("div");
+mainContent.id = "main-content";
 const header = document.createElement("div");
 header.classList.add("header");
+const footer = document.createElement("div");
+footer.id = "footer"
 
 /* NAVIGATION BAR */
 const name = document.createElement("h1");
@@ -27,6 +30,7 @@ const link3 = document.createElement("li");
 link3.classList.add("li");
 link3.innerHTML = "Contact";
 
+content.appendChild(mainContent);
 content.insertBefore(header, mainContent);
 header.appendChild(name);
 header.appendChild(links);
@@ -45,10 +49,12 @@ link2.addEventListener("click", function() {
     menuContent();
 })
 /* MAIN CONTENT AREA */
-/* Luo linkkeihin eventListener joka tuo jokaisen sivun sisällön tähän*/
 homeContent();
-/*mainContent.setAttribute("id", "main-content");*/
-/*mainContent.id = "main-content";*/
+
+/* FOOTER */
+footer.innerHTML = "Copyright &copy; Petteri Leino 2021";
+content.appendChild(footer);
 }
+
 
 export default home;

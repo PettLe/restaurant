@@ -1,5 +1,5 @@
+import sealchef from "./img/sealchef2.jpg";
 
-import sealchef from "./img/sealchef.jpg";
 function homeContent() {
     const mainContent = document.getElementById("main-content");
     const imgCont = document.createElement("div");
