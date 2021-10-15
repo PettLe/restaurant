@@ -44,12 +44,7 @@ h2 {
   font-family: Lobster;
 }
 
-/*.li {
-  padding: 0 vh;
-}*/
-
 .li:hover {
-  /*background-color: rgba(255, 255, 255, 0.9);*/
   color: rgb(230, 104, 20);
   margin: auto;
   cursor: pointer;
@@ -66,14 +61,15 @@ h2 {
 }
 
 #homeDescription,
-#menuDescription {
+#menuDescription,
+#contactDescription {
   width: 50%;
   gap: 5vh;
   height: 90%;
-  /* animation: fadeIn 3s; */
 }
 
-#menuDescription {
+#menuDescription,
+#contactDescription {
   margin-left: 25%;
   display: flex;
   flex-direction: column;
@@ -101,6 +97,12 @@ hr {
   float: right;
 }
 
+#contactImg {
+  max-width: 25vw;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px black;
+}
+
 #footer {
   font-family: "Open Sans";
   display: flex;
@@ -110,15 +112,6 @@ hr {
   bottom: 6vh;
   z-index: 1;
 }
-
-/*@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}*/
 
 .foodPic {
   max-width: 20vw;

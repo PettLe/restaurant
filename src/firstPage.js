@@ -1,5 +1,6 @@
 import homeContent from "./homeContent.js";
 import menuContent from "./menu.js";
+import contactContent from "./contact.js";
 
 function home() {
 
@@ -48,11 +49,16 @@ link2.addEventListener("click", function() {
     mainContent.innerHTML = "";
     menuContent();
 })
+
+link3.addEventListener("click", function() {
+    mainContent.innerHTML = "";
+    contactContent();
+})
 /* MAIN CONTENT AREA */
 homeContent();
 
 /* FOOTER */
-footer.innerHTML = "Copyright &copy; Petteri Leino 2021";
+footer.innerHTML = "Copyright &copy; Petteri Leino 2021 | Pics - Stock images";
 content.appendChild(footer);
 }
 
